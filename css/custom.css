@@ -1,39 +1,194 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+
+.rwd-break {
+  display: block;
+}
+
 .jumbotron {
   color: white;
-  background-image: url("../img/1.jpg");
+  background-image: url("../img/2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display:block;
+  height: 58vh;
   
+}
+.end {
+  background-color:#db4646;
+  height:47vh;
+
 }
 .textsOne {
   margin-top:90px;
   
 }
-.buttons {
-  margin-top:50px;
+
+.startCourse {
+  border:1px solid #FA283E;
+  height:90px;
+  border-radius: 50px;
+  background-color:#FA283E;
+  color:white;
+  width:450px;
+  text-align:center;
+  padding-top:25px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-.buttonOne {
-  width:275px; 
-  height:55px; 
-  text-align:center; 
-  padding-top:12px; 
-  border-radius:0px; 
-  font-family:Helvetica, sans-serif;
+.startCourseo {
+  border: 1px solid white;
+  background-color:white;
+  color:grey;
+  width:900px;
+  height:95px;
+  border-radius:0px;
+  padding-top:20px;
+  font-size:30px;
+}
+.texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:55px; 
+ font-weight:bold;
+}
+.texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:25px;
+ margin-top:-15px;
+}
+.textsOne .blog {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:48px;
+  text-align:center;
+  color:black;
+  font-weight: bolder;
+  
+}
+
+
+.navbar {
+ height:150px;
+}
+.text-center {
+ margin-top:40px;
+}
+.partTwo {
+  background-color: #dedede;
+  height:80vh;
+  margin-top:-50px;
+}
+.twoA {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:48px;
+  color:black;
+  font-weight: bold;
 
 }
-.buttonTwo {
-  width:275px; 
-  height:55px; 
-  text-align:center; 
-  font-size:15px; 
-  padding-top:12px; 
-  border-radius:0px; 
-  font-family:Helvetica, sans-serif; 
-  margin-left:25px;
+.twoB {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:17px;
+  color:black;
+  
+}
+.rowOne {
+  padding-top:60px;
+}
+.besidevideo {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:18px;
+  line-height:30px;
+  padding-left: 20px;
+}
+.partThree {
+  background-color: black;
+  height:10vh;
+}
+.partFour {
+  background-color:#e8e8e8;
+  height:90vh;
+}
+
+.frcards {
+  margin-top:60px;
+}
+hr {
+  text-align:center;
+  width:300px;
+}
+.cardbutton .btn {
+  border-radius:0px;
+  border: 1px solid #FA283E;
+  background-color:#FA283E;
+  color:white;
+  width:300px;
+  height:55px;
+  padding-top: 12.5px;
+  box-shadow: 0 4px 5px -2px #FA283E;
 
 }
+.cardbutton .btn:hover {
+  background-color:#cf4848;
+  border:#cf4848;
+
+}
+.cardbuttonM .btn {
+  border-radius:0px;
+  border: 1px solid #fafafa; 
+  background-color:#fafafa;
+  color:black;
+  width:300px;
+  height:55px;
+  padding-top: 12.5px;
+  box-shadow: 0 4px 5px -2px grey;
+
+}
+.cardbuttonM .btn:hover {
+  background-color:#e6e3e3;
+  border:#e6e3e3;
+
+}
+.cardOne {
+  width:25rem; 
+  height:31rem; 
+  background-color:#db5151;
+  margin-left:-15px;
+}
+.cardTwo {
+  width: 25rem; 
+  height:33rem; 
+  margin-top:-15px; 
+  z-index: 999; 
+  background-color:#db4646;
+}
+.cardThree {
+  width:25rem; 
+  height:31rem; 
+  background-color:#db5151; 
+  margin-left:15px;
+}
+.circleP {
+  margin-top:60px;
+  margin-left:60px;
+}
+.FiveO h2 {
+  font-family: 'Lato', sans-serif; 
+  font-size:60px; 
+  text-align:center; 
+  color:white; 
+  padding-top:70px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -69,75 +224,278 @@
 
 /*iphone x*/
 @media screen and (max-width:375px), screen and (min-height:812px) {
+  
   .jumbotron {
-  background-image: url("/img/1.jpg");
-  height:95vh;
+  height:58vh;
  }
- .textsOne {
-  margin-top:60px;
+
+ .startCourse {
+  width:290px;
+  padding-top:15px;
  }
- .buttonOne {
-  margin-left:33.5px;
+ .texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:35px; 
+ font-weight:bold;
+}
+.twoB {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:0px;
+  color:black;
+  
+}
+ .texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:20px;
  }
- .buttonTwo {
-  margin-top:20px;
-  margin-left:33.5px;
+ .navbar {
+ height:169px;
+
  }
+ .textsOne .blog {
+ font-size:30px;  
+ }
+ .partTwo {
+  height:135vh;
+  
+ }
+ .besidevideo {
+  padding-top:30px;
+ }
+ 
+ .partThree {
+  height:222vh;
+ }
+ .cardOne {
+  width:21rem;
+  margin-left:5px;
+ }
+ .cardTwo {
+  width:21rem;
+  margin-left:5px;
+  margin-top:12PX;
+ }
+ .cardThree {
+  width:21rem;
+  margin-left:5px;
+  margin-top:12PX;
+ }
+ hr {
+  text-align:center;
+  width:300px;
+}
+
+.partFour {
+  height:197vh;
+  
+}
+.end {
+  height:70vh;
+}
+.startCourseo {
+  width:300px;
+  height:100px;
+  font-size: 20px;
+}
+
+ 
 
 }
 
 /*iphone 6/7/8*/
 @media screen and (max-width:375px) and (max-height:667px) {
   .jumbotron {
-  height:115vh;
+  height:80vh;
   }   
   
-  .buttonOne {
-  margin-left:33.5px;
+.startCourse {
+  width:290px;
+  padding-top:15px;
  }
- .buttonTwo {
-  margin-top:20px;
-  margin-left:33.5px;
+ .texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:35px; 
+ font-weight:bold;
+}
+.texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:20px;
+}
+.navbar {
+ height:169px;
+
+}
+.textsOne .blog {
+ font-size:40px;  
+}
+ .partTwo {
+  height:160vh;
+  
+}
+ .besidevideo {
+  padding-top:30px;
+}
+ .partThree {
+  height:270vh;
  }
+ .partFour {
+  height:243vh;
+ }
+ .cardOne {
+  width:21rem;
+  margin-left:1.9px;
+ }
+ .cardTwo {
+  width:21rem;
+  margin-left:1.9px;
+  margin-top:12PX;
+ }
+ .cardThree {
+  width:21rem;
+  margin-left:1.9px;
+  margin-top:12PX;
+ }
+ .end {
+  height:85vh;
+}
+
+ 
 }
 
 /*galaxy s5 and motoG4*/
 @media screen and (max-width:360px) and (max-height:640px) {
   .jumbotron {
-  height:130vh;
+  height:70vh;
   } 
-  .buttonOne {
-  margin-left:27px;
+  .startCourse {
+  width:290px;
+  padding-top:15px;
  }
- .buttonTwo {
-  margin-top:20px;
-  margin-left:27px;
- }
+ .texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:35px; 
+ font-weight:bold;
+}
+.texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:20px;
+}
+.navbar {
+ height:169px;
 
 }
+.textsOne .blog {
+ font-size:30px;  
+} 
+
+.partTwo {
+  height:175vh;
+  
+}
+.besidevideo {
+  padding-top:30px;
+}
+.partThree {
+  height:280vh;
+ }
+ .partFour {
+   height:250vh;
+ }
+ .cardOne {
+  width:21rem;
+  margin-left:-1.9px;
+ }
+ .cardTwo {
+  width:21rem;
+  margin-left:-1.9px;
+  margin-top:12PX;
+ }
+ .cardThree {
+  width:21rem;
+  margin-left:-1.9px;
+  margin-top:12PX;
+  }
+  
+} 
 /*iphone 6/7/8plus */
 @media screen and (min-width:414px) {
   .jumbotron {
-  height:100vh;
+  height:60vh;
  }
 
- .textsOne {
-  margin-top:40px;
+ .startCourse {
+  width:290px;
+  padding-top:15px;
  }
+ .texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:35px; 
+ font-weight:bold;
+}
+.texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:20px;
+}
+.navbar {
+ height:169px;
 
- .buttonOne {
-  margin-left:53px;
+}
+.textsOne .blog {
+ font-size:30px;  
+}
+.partTwo {
+  height:145vh;
+  
+}
+.besidevideo {
+  padding-top:30px;
+}
+.partThree {
+  height:245vh;
  }
- .buttonTwo {
-  margin-top:20px;
-  margin-left:53px;
+ .cardOne {
+  width:22rem;
+  margin-left:18px;
  }
+ .cardTwo {
+  width:22rem;
+  margin-left:18px;
+  margin-top:12PX;
+ }
+ .cardThree {
+  width:22rem;
+  margin-left:18px;
+  margin-top:12PX;
+ }
+ .startCourseo {
+  width:300px;
+  height:100px;
+  font-size: 20px;
+}
+
+ .end {
+  height:70vh;
+ }
+  
+ 
+ .partFour {
+  height:210vh;
+}
+  
 }
 
 /*5/SE*/
 @media screen and (max-width:320px) {
   .jumbotron {
-  height:160vh;
+  height:70vh;
   width:100%;
   overflow-x:hidden;
  }
@@ -152,30 +510,112 @@
   margin-top:20px;
   margin-left:9.3px;
  }
-
+ .startCourse {
+  width:290px;
+ }
+ .textsOne .blog {
+ font-size:30px;  
+ }
+ .partTwo {
+  height:220vh;
+  
+ }
+ .besidevideo {
+  padding-top:30px;
+ } 
+ .partThree {
+  height:330vh;
+ }
+ .cardOne {
+  width:18rem;
+  margin-left:1.9px;
+ }
+ .cardTwo {
+  width:18rem;
+  margin-left:1.9px;
+  margin-top:12PX;
+  height:36rem;
+ }
+ .cardThree {
+  width:18rem;
+  margin-left:1.9px;
+  margin-top:12PX;
+ }
+ .cardbutton .btn{
+  width:250px;
+ }
+ .cardbuttonM .btn {
+  width:250px;
+ }
+ .partFour {
+  height:310vh;
+ }
+ .end {
+  height:100vh;
+ }
 
 }
 
 /* ipad*/
 @media screen and (min-width:768px) {
+  
   .jumbotron {
-  height:70vh;
+  height:45vh;
+  
  }
- .textsOne {
-  margin-top:40px;
+ .partTwo {
+  height:80vh;
+ }
+ .partThree {
+  height:100vh;
+ }
+ .frcards {
+  margin-left:-30px;
+ }
+ .cardOne {
+  width:16rem;
+  height:40rem;
+  margin-left:3px;
+  margin-top:12px;
+ }
+ .cardTwo {
+  width:16rem;
+  margin-left:-1.9px;
+  height:43rem;
+  margin-top:-12px;
+  
+  
+ }
+ .cardThree {
+  width:15rem;
+  height:40rem;
+  margin-left:-1.9px;
+  margin-top:12PX;
+ }
+ .cardbutton .btn{
+  width:200px;
+  padding-top:-0px;
+ }
+ .cardbuttonM .btn {
+  width:200px;
+  padding-top:-0px;
  }
 
- .buttonOne {
-  margin-top:15px;
- }
- .buttonTwo {
-  margin-top:15px;
-  margin-left:9.5px;
+ hr {
+  text-align:center;
+  width:100px;
+
 }
-.buttons {
-  margin-left:-50px;
-  margin-top:30px;
+.whole4 {
+  margin-left:-109px;
 }
+.partFour {
+  height:78vh;
+}
+.end {
+  height:40vh;
+}
+
 
 
 }
@@ -185,20 +625,216 @@
   .jumbotron {
   height:40vh;
  }
+ .rwd-break {
+  display:none;
+ }
+ .partTwo {
+  height:43vh;
+ }
+ .partThree {
+  height:73vh;
+ }
+ .frcards {
+  margin-left:-30px;
+ }
+ .cardOne {
+  width:20rem;
+  height:40rem;
+  margin-left:4px;
+  margin-top:12px;
+ }
+ .cardTwo {
+  width:20rem;
+  margin-left:-1.9px;
+  height:43rem;
+  margin-top:-12px;
+  
+  
+ }
+ .cardThree {
+  width:20rem;
+  height:40rem;
+  margin-left:-8px;
+  margin-top:12PX;
+ }
+ .cardbutton .btn{
+  width:200px;
+  padding-top:-0px;
+ }
+ .cardbuttonM .btn {
+  width:200px;
+  padding-top:-0px;
+ }
+ 
+ .partFour {
+  height:55vh;
+}
+.end {
+  height:30vh;
+}
 }
 
 /*lappi */
 @media screen and (min-width:1025px) {
   .jumbotron {
-  height:67vh;
+  height:58vh;
   }
+  .rwd-break {
+  display:none;
+ }
+ .startCourse {
+  width:450px;
+  padding-top:25px;
+ }
+ .textsOne .blog {
+  font-family: 'Noto Sans JP', sans-serif; 
+  font-size:48px;
+  text-align:center;
+  color:black;
+  font-weight: bolder;
+  line-height:70px;
+
+ }
+ .textsOne {
+  margin-top:30px;
+ }
+ .partTwo {
+  height:80vh;
+  
+ }
+ .partThree {
+  height:100vh;
+ }
+ .besidevideo {
+  padding-top:10px;
+ } 
+ .cardOne {
+  width:25rem; 
+  height:31rem; 
+  background-color:#db5151;
+  margin-left:-15px;
+}
+.cardTwo {
+  width: 25rem; 
+  height:33rem; 
+  margin-top:-2px; 
+  z-index: 999; 
+  background-color:#db4646;
+}
+.cardThree {
+  width:25rem; 
+  height:31rem; 
+  background-color:#db5151; 
+  margin-left:10px;
+}
+.cardbuttonM .btn {
+  border-radius:0px;
+  border: 1px solid #fafafa; 
+  background-color:#fafafa;
+  color:black;
+  width:300px;
+  height:55px;
+  padding-top: 12.5px;
+  box-shadow: 0 4px 5px -2px grey;
+
+}
+.cardbuttonM .btn:hover {
+  background-color:#e6e3e3;
+  border:#e6e3e3;
+
+}
+.cardbutton .btn {
+  border-radius:0px;
+  border: 1px solid #FA283E;
+  background-color:#FA283E;
+  color:white;
+  width:300px;
+  height:55px;
+  padding-top: 12.5px;
+  box-shadow: 0 4px 5px -2px #FA283E;
+
+}
+.cardbutton .btn:hover {
+  background-color:#cf4848;
+  border:#cf4848;
+
+}
+.partFour{
+  background-color:#e8e8e8;
+  height:90vh;
+}
+.end {
+  height:47vh;
+
+}
+.whole4 {
+  margin-left:-20px;
+}
 }
 
 /*pixel*/
 @media screen and (min-width:411px)  and (max-height:731px) {
   .jumbotron {
-  height:96vh;
+  height:76vh;
   }
+  .startCourse {
+  width:290px;
+  padding-top:15px;
+ }
+ .texts1 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:35px; 
+ font-weight:bold;
+}
+ .texts2 {
+ text-align:center; 
+ font-family: 'Noto Sans JP', sans-serif; 
+ font-size:20px;
+ }
+ .navbar {
+ height:169px;
+
+ }
+ .textsOne .blog {
+ font-size:40px;  
+ }
+ .partTwo {
+  height:150vh;
+  
+ }
+ .besidevideo {
+  padding-top:30px;
+ }
+ .partThree {
+  height:250vh;
+ }
+ .cardOne {
+  width:21rem;
+  margin-left:22.5px;
+ }
+ .cardTwo {
+  width:21rem;
+  margin-left:22.5px;
+  margin-top:12PX;
+ }
+ .cardThree {
+  width:21rem;
+  margin-left:22.5px;
+  margin-top:12PX;
+ }
+ .partFour {
+  height:210vh;
+  
+}
+.end {
+  height:70vh;
+}
+.startCourseo {
+  width:300px;
+  height:100px;
+  font-size: 20px;
+}
 }
 
 /*galaxy fold*/
